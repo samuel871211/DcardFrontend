@@ -32,3 +32,5 @@ RightTable顯示景點的簡易資訊
 RightDialog顯示單一景點的詳細資訊
 
 我習慣是一個頁面就開一個.js檔案，並且去引入組件們，頁面會掌管底層組件需要共用的state，並且傳遞給子元件們
+
+詳細的架構解說：https://youtu.be/-GigpJXC4Ik
