@@ -17,3 +17,6 @@
 前端後端預設跑在同一台電腦，並且後端預設使用port = 3000，如果跑在不同電腦，或是不同port，請到 frontend > src > APISource > url.js 修改後端的url
 
 架構設計：
+
+![image](https://github.com/samuel871211/DcardFrontend/blob/master/frontend/components1.png?raw=true)
+![image](https://github.com/samuel871211/DcardFrontend/blob/master/frontend/components2.png?raw=true)
