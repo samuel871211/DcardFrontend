@@ -20,3 +20,15 @@
 
 ![image](https://github.com/samuel871211/DcardFrontend/blob/master/frontend/components1.png?raw=true)
 ![image](https://github.com/samuel871211/DcardFrontend/blob/master/frontend/components2.png?raw=true)
+
+組件components總共有四個，分別是Nav(藍)、LeftDrawer(橘)、RightTable(紅)、RightDialog(綠)
+
+Nav目前僅有放標題
+
+LeftDrawer掌管路由的切換
+
+RightTable顯示景點的簡易資訊
+
+RightDialog顯示單一景點的詳細資訊
+
+我習慣是一個頁面就開一個.js檔案，並且去引入組件們，頁面會掌管底層組件需要共用的state，並且傳遞給子元件們
